@@ -4,14 +4,14 @@ intro: You can add autolinks to external resources like JIRA issues and Zendesk 
 product: '{% data reusables.gated-features.autolinks %}'
 redirect_from:
   - /articles/configuring-autolinks-to-reference-external-resources
-versions:
+versions: 
   free-pro-team: '*'
   enterprise-server: '*'
   github-ae: '*'
 ---
 
 Anyone with admin permissions to a repository can configure autolink references to link issues, pull requests,{% if currentVersion == "free-pro-team@latest" or currentVersion == "github-ae@latest" or currentVersion ver_gt "enterprise-server@2.21" %} commit messages, and release descriptions{% else %} and commit messages{% endif %} to external third-party services.
-
+Nmm
 If you use Zendesk to track user-reported tickets, for example, you can reference a ticket number in the pull request you open to fix the issue.  
 
 {% data reusables.repositories.navigate-to-repo %}
